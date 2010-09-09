@@ -1,0 +1,21 @@
+<Configuration>
+  <SettingsComponent>
+	<string />
+	<integer />
+	<boolean>
+	  <setting name="SolutionAnalysisEnabled">False</setting>
+	</boolean>
+  </SettingsComponent>
+  <NAntValidationSettings>
+	<NAntPath value="" />
+  </NAntValidationSettings>
+  <RecentFiles>
+	<RecentFiles>
+	  <File id="FF43898B-A4AF-4066-8CA5-56C96A0E3FB6/f:Program.cs" caret="133" fromTop="7" />
+	</RecentFiles>
+	<RecentEdits />
+  </RecentFiles>
+  <UnitTestRunner>
+	<Providers />
+  </UnitTestRunner>
+</Configuration>
