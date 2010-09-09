@@ -9,8 +9,8 @@ namespace Ddp124Map
 	{
 		static void Main(string[] args)
 		{
-			SemanticDomainCollection semanticDomains = new SemanticDomainCollection(@"D:\SoftwareDevelopment\Ddp124Map\DDP4\Ddp1.xml");
-			semanticDomains.PrintAllSemanticDomainkeys();
+			SemanticDomainCollection semanticDomainsDdp1 = new SemanticDomainCollection(@"D:\SoftwareDevelopment\Ddp124Map\DDP4\Ddp1.xml");
+			SemanticDomainCollection semanticDomainsDdp4 = new SemanticDomainCollection(@"D:\SoftwareDevelopment\Ddp124Map\DDP4\Ddp4.xml");
 			Console.ReadLine();
 		}
 	}

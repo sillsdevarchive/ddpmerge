@@ -12,7 +12,7 @@ namespace Ddp124Map
 
 		public SemanticDomainCollection(string filePath)
 		{
-			_semanticDomains = SemanticDomainReader.ReadFromFile(filePath);
+			_semanticDomains = new SemanticDomainReader().ReadFromFile(filePath);
 		}
 
 		public void PrintAllSemanticDomainkeys()

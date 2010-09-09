@@ -47,16 +47,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="FormReader.cs" />
-    <Compile Include="KeyReader.cs" />
-    <Compile Include="FormsCollectionReader.cs" />
-    <Compile Include="OptionReader.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="SemanticDomainReader.cs" />
     <Compile Include="SemanticDomainCollection.cs" />
     <Compile Include="SemanticDomainInfo.cs" />
-    <Compile Include="XmlToSemanticDomainReader.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
