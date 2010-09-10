@@ -11,15 +11,23 @@ namespace Ddp124Map
 	{
 		static public Dictionary<string, string> ReadFromFile(string filePath)
 		{
+			Dictionary<string, string> map = new Dictionary<string, string>();
+
 			StreamReader stream = new StreamReader(filePath);
 
-			string line;
-			Regex lineWithInterestingRule = new Regex(@"' (\d.)*' n1 > ' (\d.)*' n1 c .*");
 
+			Regex lineMatcher = new Regex(@"' (\d\.)*\d' nl > ' (\d\.)*\d' nl c .*");
+			Regex numberMatcher = new Regex(@"(\d\.)*\d");
+			string line;
 			while((line = stream.ReadLine()) != null)
 			{
-
+				if (lineMatcher.Match(line).Success)
+				{
+					MatchCollection matches = numberMatcher.Matches(line);
+					map.Add(matches[0].Value, matches[1].Value);
+				}
 			}
+			return map;
 		}
 	}
 }

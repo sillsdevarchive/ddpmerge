@@ -33,5 +33,10 @@ namespace Ddp124Map
 				}
 			}
 		}
+
+		internal SemanticDomainInfo GetSemanticDomainWithNumber(string correspondingNumberInDdp4)
+		{
+			throw new NotImplementedException();
+		}
 	}
 }

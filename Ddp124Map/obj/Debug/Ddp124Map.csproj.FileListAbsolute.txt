@@ -3,3 +3,4 @@ D:\SoftwareDevelopment\Ddp124Map\Ddp124Map\bin\Debug\Ddp124Map.pdb
 D:\SoftwareDevelopment\Ddp124Map\Ddp124Map\obj\Debug\ResolveAssemblyReference.cache
 D:\SoftwareDevelopment\Ddp124Map\Ddp124Map\obj\Debug\Ddp124Map.exe
 D:\SoftwareDevelopment\Ddp124Map\Ddp124Map\obj\Debug\Ddp124Map.pdb
+D:\SoftwareDevelopment\Ddp124Map\Ddp124Map\bin\Debug\nunit.framework.dll
