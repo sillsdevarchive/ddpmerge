@@ -64,5 +64,32 @@ namespace Ddp124Map
 			get { return _descriptions; }
 			set { _descriptions = value; }
 		}
+
+		internal void MergeWithSemanticDomain(SemanticDomainInfo ddp1SemanticDomain)
+		{
+			this.Names = MergeFormCollections(this.Names, ddp1SemanticDomain.Names);
+			this.Descriptions = MergeFormCollections(this.Descriptions, ddp1SemanticDomain.Descriptions);
+			this.Abbreviation = MergeFormCollections(this.Abbreviation, ddp1SemanticDomain.Abbreviation);
+			this.SearchKeys = MergeFormCollections(this.SearchKeys, ddp1SemanticDomain.SearchKeys);
+		}
+
+		private Dictionary<string, List<string>> MergeFormCollections(Dictionary<string, List<string>> thisFormCollection, Dictionary<string, List<string>> thatFormCollection)
+		{
+			foreach (KeyValuePair<string, List<string>> wsIdAndForms in thatFormCollection)
+			{
+				if (thisFormCollection.ContainsKey(wsIdAndForms.Key))
+				{
+					foreach (string form in thatFormCollection[wsIdAndForms.Key])
+					{
+						thisFormCollection[wsIdAndForms.Key].Add(form);
+					}
+				}
+				else
+				{
+					thisFormCollection.Add(wsIdAndForms.Key, wsIdAndForms.Value);
+				}
+			}
+			return thisFormCollection;
+		}
 	}
 }

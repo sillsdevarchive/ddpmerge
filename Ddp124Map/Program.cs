@@ -18,7 +18,6 @@ namespace Ddp124Map
 
 			SemanticDomainCollection semanticDomainsDdp1 = SemanticDomainReader.ReadFromFile(filePathToDdp1);
 			SemanticDomainCollection semanticDomainsDdp4 = SemanticDomainReader.ReadFromFile(filePathToDdp4);
-			SemanticDomainCollection mergedSemanticDomains = new SemanticDomainCollection();
 
 			Dictionary<string, string> map = Ddp4to1MapReader.ReadFromFile(filePathToMap);
 			foreach (SemanticDomainInfo ddp1SemanticDomain in semanticDomainsDdp1.AllSemanticDomains)
@@ -28,12 +27,11 @@ namespace Ddp124Map
 				{
 					correspondingNumberInDdp4 = map[ddp1SemanticDomain.Number];
 				}
-				SemanticDomainInfo ddp4SemanticDomain = semanticDomainsDdp4.GetSemanticDomainWithNumber(correspondingNumberInDdp4);
-				SemanticDomainInfo mergedSemanticDomain = SemanticDomainsMerger.MergeSemanticDomains(ddp1SemanticDomain, ddp4SemanticDomain);
-				mergedSemanticDomains.AddSemanticDomain(mergedSemanticDomain);
+				SemanticDomainInfo semanticDomainToMergeInto = semanticDomainsDdp4.GetSemanticDomainWithNumber(correspondingNumberInDdp4);
+				semanticDomainToMergeInto.MergeWithSemanticDomain(ddp1SemanticDomain);
 			}
 
-			SemanticDomainWriter.WriteToFile(newDdpFile, mergedSemanticDomains);
+			SemanticDomainWriter.WriteToFile(newDdpFile, semanticDomainsDdp4);
 
 			Console.ReadLine();
 		}

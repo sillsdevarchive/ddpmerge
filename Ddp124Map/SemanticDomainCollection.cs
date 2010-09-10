@@ -34,9 +34,16 @@ namespace Ddp124Map
 			}
 		}
 
-		internal SemanticDomainInfo GetSemanticDomainWithNumber(string correspondingNumberInDdp4)
+		internal SemanticDomainInfo GetSemanticDomainWithNumber(string numberOfDomainToFind)
 		{
-			throw new NotImplementedException();
+			foreach (SemanticDomainInfo semanticDomain in _semanticDomains)
+			{
+				if (semanticDomain.Number == numberOfDomainToFind)
+				{
+					return semanticDomain;
+				}
+			}
+			throw new ApplicationException(String.Format("SemanticDomain with number {0} was not found.",numberOfDomainToFind));
 		}
 	}
 }
