@@ -8,9 +8,9 @@ namespace Ddp124Map
 {
 	public class SemanticDomainReader
 	{
-		public IEnumerable<SemanticDomainInfo> ReadFromFile(string filePath)
+		static public SemanticDomainCollection ReadFromFile(string filePath)
 		{
-			List<SemanticDomainInfo> semanticDomains = new List<SemanticDomainInfo>();
+			SemanticDomainCollection semanticDomains = new SemanticDomainCollection();
 			XmlReaderSettings settings = new XmlReaderSettings();
 			settings.IgnoreWhitespace = true;
 			XmlReader fileReader = XmlReader.Create(filePath, settings);
@@ -19,13 +19,14 @@ namespace Ddp124Map
 			{
 				if(fileReader.Name == "option")
 				{
-					semanticDomains.Add(PopulateSemanticDomainFromXml(fileReader));
+					semanticDomains.AddSemanticDomain(PopulateSemanticDomainFromXml(fileReader));
 				}
 			}
+			fileReader.Close();
 			return semanticDomains;
 		}
 
-		public SemanticDomainInfo PopulateSemanticDomainFromXml(XmlReader fileReader)
+		static private SemanticDomainInfo PopulateSemanticDomainFromXml(XmlReader fileReader)
 		{
 			if (fileReader.Name != "option")
 			{
@@ -34,6 +35,9 @@ namespace Ddp124Map
 			}
 
 			SemanticDomainInfo semanticDomain = null;
+
+			if (fileReader.IsEmptyElement) {throw new InvalidOperationException("An empty 'option' element was found.");}
+
 			while (fileReader.Read())
 			{
 				bool readerHasReachedEndOfOption =
@@ -60,7 +64,7 @@ namespace Ddp124Map
 				}
 				else if (fileReader.Name.ToLower() == "searchkeys")
 				{
-					semanticDomain.Descriptions = PopulateFormsFromXml(fileReader);
+					semanticDomain.SearchKeys = PopulateFormsFromXml(fileReader);
 				}
 				else
 				{
@@ -75,7 +79,7 @@ namespace Ddp124Map
 			return semanticDomain;
 		}
 
-		public KeyValuePair<string, string> PopulateFormFromXml(XmlReader fileReader)
+		static private KeyValuePair<string, string> PopulateFormFromXml(XmlReader fileReader)
 		{
 			if (fileReader.Name != "form")
 			{
@@ -96,10 +100,13 @@ namespace Ddp124Map
 			return wsIdToFormMap;
 		}
 
-		public Dictionary<string, string> PopulateFormsFromXml(XmlReader fileReader)
+		static private Dictionary<string, List<string>> PopulateFormsFromXml(XmlReader fileReader)
 		{
 			string formsCollectionsName = fileReader.Name;
-			Dictionary<string, string> wsIdToFormMap = new Dictionary<string, string>();
+			Dictionary<string, List<string>> wsIdToFormMap = new Dictionary<string, List<string>>();
+
+			if(fileReader.IsEmptyElement){return new Dictionary<string, List<string>>();}
+
 			while (fileReader.Read())
 			{
 				bool readerHasReachedEndOfCollection =
@@ -110,7 +117,12 @@ namespace Ddp124Map
 				if (fileReader.Name == "form")
 				{
 					KeyValuePair<string, string> wsIdAndForm = PopulateFormFromXml(fileReader);
-					wsIdToFormMap.Add(wsIdAndForm.Key, wsIdAndForm.Value);
+					if(!wsIdToFormMap.ContainsKey(wsIdAndForm.Key))
+					{
+						List<string> listOfForms = new List<string>();
+						wsIdToFormMap.Add(wsIdAndForm.Key, listOfForms);
+					}
+					wsIdToFormMap[wsIdAndForm.Key].Add(wsIdAndForm.Value);
 				}
 				else
 				{
@@ -121,7 +133,7 @@ namespace Ddp124Map
 			return wsIdToFormMap;
 		}
 
-		public string PopulateKeyFromXml(XmlReader fileReader)
+		static private string PopulateKeyFromXml(XmlReader fileReader)
 		{
 			if (fileReader.Name != "key")
 			{

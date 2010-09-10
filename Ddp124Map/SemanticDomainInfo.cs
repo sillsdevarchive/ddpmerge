@@ -9,10 +9,10 @@ namespace Ddp124Map
 	{
 		private string _number = "";
 		private string _keyName = "";
-		private Dictionary<string, string> _names = new Dictionary<string, string>();
-		private Dictionary<string, string> _abbreviation = new Dictionary<string, string>();
-		private Dictionary<string, string> _searchKeys = new Dictionary<string, string>();
-		private Dictionary<string, string> _descriptions = new Dictionary<string, string>();
+		private Dictionary<string, List<string>> _names = new Dictionary<string, List<string>>();
+		private Dictionary<string, List<string>> _abbreviation = new Dictionary<string, List<string>>();
+		private Dictionary<string, List<string>> _searchKeys = new Dictionary<string, List<string>>();
+		private Dictionary<string, List<string>> _descriptions = new Dictionary<string, List<string>>();
 
 		public SemanticDomainInfo(string key)
 		{
@@ -41,25 +41,25 @@ namespace Ddp124Map
 			}
 		}
 
-		public Dictionary<string, string> Names
+		public Dictionary<string, List<string>> Names
 		{
 			get { return _names; }
 			set { _names = value; }
 		}
 
-		public Dictionary<string, string> Abbreviation
+		public Dictionary<string, List<string>> Abbreviation
 		{
 			get { return _abbreviation; }
 			set { _abbreviation = value; }
 		}
 
-		public Dictionary<string, string> SearchKeys
+		public Dictionary<string, List<string>> SearchKeys
 		{
 			get { return _searchKeys; }
 			set { _searchKeys = value; }
 		}
 
-		public Dictionary<string, string> Descriptions
+		public Dictionary<string, List<string>> Descriptions
 		{
 			get { return _descriptions; }
 			set { _descriptions = value; }
