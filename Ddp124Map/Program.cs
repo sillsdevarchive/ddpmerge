@@ -28,7 +28,7 @@ namespace Ddp124Map
 					correspondingNumberInDdp4 = map[ddp1SemanticDomain.Number];
 				}
 				SemanticDomainInfo semanticDomainToMergeInto = semanticDomainsDdp4.GetSemanticDomainWithNumber(correspondingNumberInDdp4);
-				semanticDomainToMergeInto.MergeWithSemanticDomain(ddp1SemanticDomain);
+				semanticDomainToMergeInto.MergeInTranslations(ddp1SemanticDomain);
 			}
 
 			SemanticDomainWriter.WriteToFile(newDdpFile, semanticDomainsDdp4);

@@ -57,7 +57,6 @@
     <Compile Include="SemanticDomainReader.cs" />
     <Compile Include="SemanticDomainCollection.cs" />
     <Compile Include="SemanticDomainInfo.cs" />
-    <Compile Include="SemanticDomainsMerger.cs" />
     <Compile Include="SemanticDomainWriter.cs" />
     <Compile Include="Tests.cs" />
   </ItemGroup>

@@ -65,31 +65,48 @@ namespace Ddp124Map
 			set { _descriptions = value; }
 		}
 
-		internal void MergeWithSemanticDomain(SemanticDomainInfo ddp1SemanticDomain)
+		internal void MergeInTranslations(SemanticDomainInfo ddp1SemanticDomain)
 		{
-			this.Names = MergeFormCollections(this.Names, ddp1SemanticDomain.Names);
-			this.Descriptions = MergeFormCollections(this.Descriptions, ddp1SemanticDomain.Descriptions);
-			this.Abbreviation = MergeFormCollections(this.Abbreviation, ddp1SemanticDomain.Abbreviation);
-			this.SearchKeys = MergeFormCollections(this.SearchKeys, ddp1SemanticDomain.SearchKeys);
+				this.Names = MergeTranslationsInFormCollections(this.Names, ddp1SemanticDomain.Names);
+				this.Descriptions = MergeTranslationsInFormCollections(this.Descriptions, ddp1SemanticDomain.Descriptions);
+				this.Abbreviation = MergeTranslationsInFormCollections(this.Abbreviation, ddp1SemanticDomain.Abbreviation);
+				this.SearchKeys = MergeTranslationsInFormCollections(this.SearchKeys, ddp1SemanticDomain.SearchKeys);
 		}
 
-		private Dictionary<string, List<string>> MergeFormCollections(Dictionary<string, List<string>> thisFormCollection, Dictionary<string, List<string>> thatFormCollection)
+		private Dictionary<string, List<string>> MergeTranslationsInFormCollections(Dictionary<string, List<string>> thisFormCollection, Dictionary<string, List<string>> otherFormCollection)
 		{
-			foreach (KeyValuePair<string, List<string>> wsIdAndForms in thatFormCollection)
+			if(FormCollectionsContainEvenOneIdenticalLine(thisFormCollection, otherFormCollection))
 			{
-				if (thisFormCollection.ContainsKey(wsIdAndForms.Key))
+				foreach (KeyValuePair<string, List<string>> wsIdAndForms in otherFormCollection)
 				{
-					foreach (string form in thatFormCollection[wsIdAndForms.Key])
+					if (!thisFormCollection.ContainsKey(wsIdAndForms.Key))
 					{
-						thisFormCollection[wsIdAndForms.Key].Add(form);
+						thisFormCollection.Add(wsIdAndForms.Key, wsIdAndForms.Value);
 					}
-				}
-				else
-				{
-					thisFormCollection.Add(wsIdAndForms.Key, wsIdAndForms.Value);
 				}
 			}
 			return thisFormCollection;
+		}
+
+		private bool FormCollectionsContainEvenOneIdenticalLine(Dictionary<string, List<string>> thisFormCollection, Dictionary<string, List<string>> otherFormCollection)
+		{
+			foreach (KeyValuePair<string, List<string>> wsIdAndForms in thisFormCollection)
+			{
+				if(otherFormCollection.ContainsKey(wsIdAndForms.Key))
+				{
+					foreach (string formInOther in otherFormCollection[wsIdAndForms.Key])
+					{
+						foreach (string formInThis in wsIdAndForms.Value)
+						{
+							if(!String.IsNullOrEmpty(formInOther) && formInThis.Contains(formInOther))
+							{
+								return true;
+							}
+						}
+					}
+				}
+			}
+			return false;
 		}
 	}
 }

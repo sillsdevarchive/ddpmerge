@@ -3,6 +3,7 @@
 	<string />
 	<integer />
 	<boolean>
+	  <setting name="livetemplates.csharp.usevar">False</setting>
 	  <setting name="SolutionAnalysisEnabled">False</setting>
 	</boolean>
   </SettingsComponent>
@@ -11,11 +12,326 @@
   </NAntValidationSettings>
   <RecentFiles>
 	<RecentFiles>
-	  <File id="FF43898B-A4AF-4066-8CA5-56C96A0E3FB6/f:Program.cs" caret="133" fromTop="7" />
+	  <File id="d:&amp;/f:SemanticDomainWriter.cs/l:D!?SoftwareDevelopment?Ddp124Map?Ddp124Map?SemanticDomainWriter.cs" caret="834" fromTop="21" />
+	  <File id="d:&amp;/f:SemanitcDomainReader.cs/l:D!?SoftwareDevelopment?Ddp124Map?Ddp124Map?SemanitcDomainReader.cs" caret="3095" fromTop="17" />
+	  <File id="d:&amp;/f:Tests.cs/l:D!?SoftwareDevelopment?Ddp124Map?Ddp124Map?Tests.cs" caret="437" fromTop="16" />
+	  <File id="d:&amp;/f:Ddp4to1MapReader.cs/l:D!?SoftwareDevelopment?Ddp124Map?Ddp124Map?Ddp4to1MapReader.cs" caret="449" fromTop="15" />
+	  <File id="d:&amp;/f:SemanticDomainsMerger.cs/l:D!?SoftwareDevelopment?Ddp124Map?Ddp124Map?SemanticDomainsMerger.cs" caret="358" fromTop="11" />
+	  <File id="d:&amp;/f:SemanticDomainCollection.cs/l:D!?SoftwareDevelopment?Ddp124Map?Ddp124Map?SemanticDomainCollection.cs" caret="1017" fromTop="14" />
+	  <File id="d:&amp;/f:SemanticDomainInfo.cs/l:D!?SoftwareDevelopment?Ddp124Map?Ddp124Map?SemanticDomainInfo.cs" caret="2078" fromTop="21" />
+	  <File id="FF43898B-A4AF-4066-8CA5-56C96A0E3FB6/f:Program.cs" caret="431" fromTop="6" />
 	</RecentFiles>
-	<RecentEdits />
+	<RecentEdits>
+	  <File id="d:&amp;/f:SemanticDomainWriter.cs/l:D!?SoftwareDevelopment?Ddp124Map?Ddp124Map?SemanticDomainWriter.cs" caret="1836" fromTop="21" />
+	  <File id="FF43898B-A4AF-4066-8CA5-56C96A0E3FB6/f:Program.cs" caret="2381" fromTop="41" />
+	  <File id="d:&amp;/f:SemanticDomainWriter.cs/l:D!?SoftwareDevelopment?Ddp124Map?Ddp124Map?SemanticDomainWriter.cs" caret="407" fromTop="14" />
+	  <File id="d:&amp;/f:SemanticDomainWriter.cs/l:D!?SoftwareDevelopment?Ddp124Map?Ddp124Map?SemanticDomainWriter.cs" caret="834" fromTop="21" />
+	  <File id="FF43898B-A4AF-4066-8CA5-56C96A0E3FB6/f:Program.cs" caret="2216" fromTop="29" />
+	  <File id="FF43898B-A4AF-4066-8CA5-56C96A0E3FB6/f:Program.cs" caret="1611" fromTop="21" />
+	  <File id="FF43898B-A4AF-4066-8CA5-56C96A0E3FB6/f:Program.cs" caret="1442" fromTop="25" />
+	  <File id="FF43898B-A4AF-4066-8CA5-56C96A0E3FB6/f:Program.cs" caret="1442" fromTop="25" />
+	  <File id="FF43898B-A4AF-4066-8CA5-56C96A0E3FB6/f:Program.cs" caret="1589" fromTop="34" />
+	  <File id="FF43898B-A4AF-4066-8CA5-56C96A0E3FB6/f:Program.cs" caret="888" fromTop="21" />
+	  <File id="d:&amp;/f:Ddp4to1MapReader.cs/l:D!?SoftwareDevelopment?Ddp124Map?Ddp124Map?Ddp4to1MapReader.cs" caret="377" fromTop="15" />
+	  <File id="FF43898B-A4AF-4066-8CA5-56C96A0E3FB6/f:Program.cs" caret="498" fromTop="10" />
+	  <File id="d:&amp;/f:Tests.cs/l:D!?SoftwareDevelopment?Ddp124Map?Ddp124Map?Tests.cs" caret="132" fromTop="7" />
+	  <File id="d:&amp;/f:Tests.cs/l:D!?SoftwareDevelopment?Ddp124Map?Ddp124Map?Tests.cs" caret="112" fromTop="4" />
+	  <File id="d:&amp;/f:Ddp4to1MapReader.cs/l:D!?SoftwareDevelopment?Ddp124Map?Ddp124Map?Ddp4to1MapReader.cs" caret="382" fromTop="13" />
+	  <File id="d:&amp;/f:Ddp4to1MapReader.cs/l:D!?SoftwareDevelopment?Ddp124Map?Ddp124Map?Ddp4to1MapReader.cs" caret="916" fromTop="26" />
+	  <File id="d:&amp;/f:Tests.cs/l:D!?SoftwareDevelopment?Ddp124Map?Ddp124Map?Tests.cs" caret="436" fromTop="16" />
+	  <File id="d:&amp;/f:Ddp4to1MapReader.cs/l:D!?SoftwareDevelopment?Ddp124Map?Ddp124Map?Ddp4to1MapReader.cs" caret="465" fromTop="17" />
+	  <File id="d:&amp;/f:Ddp4to1MapReader.cs/l:D!?SoftwareDevelopment?Ddp124Map?Ddp124Map?Ddp4to1MapReader.cs" caret="612" fromTop="19" />
+	  <File id="d:&amp;/f:Ddp4to1MapReader.cs/l:D!?SoftwareDevelopment?Ddp124Map?Ddp124Map?Ddp4to1MapReader.cs" caret="957" fromTop="28" />
+	  <File id="d:&amp;/f:SemanticDomainCollection.cs/l:D!?SoftwareDevelopment?Ddp124Map?Ddp124Map?SemanticDomainCollection.cs" caret="1468" fromTop="35" />
+	  <File id="d:&amp;/f:SemanticDomainCollection.cs/l:D!?SoftwareDevelopment?Ddp124Map?Ddp124Map?SemanticDomainCollection.cs" caret="1017" fromTop="14" />
+	  <File id="FF43898B-A4AF-4066-8CA5-56C96A0E3FB6/f:Program.cs" caret="1442" fromTop="30" />
+	  <File id="FF43898B-A4AF-4066-8CA5-56C96A0E3FB6/f:Program.cs" caret="810" fromTop="11" />
+	  <File id="FF43898B-A4AF-4066-8CA5-56C96A0E3FB6/f:Program.cs" caret="1485" fromTop="22" />
+	  <File id="d:&amp;/f:SemanticDomainInfo.cs/l:D!?SoftwareDevelopment?Ddp124Map?Ddp124Map?SemanticDomainInfo.cs" caret="2858" fromTop="31" />
+	  <File id="d:&amp;/f:SemanticDomainInfo.cs/l:D!?SoftwareDevelopment?Ddp124Map?Ddp124Map?SemanticDomainInfo.cs" caret="3098" fromTop="35" />
+	  <File id="d:&amp;/f:SemanticDomainInfo.cs/l:D!?SoftwareDevelopment?Ddp124Map?Ddp124Map?SemanticDomainInfo.cs" caret="2714" fromTop="20" />
+	  <File id="d:&amp;/f:SemanticDomainInfo.cs/l:D!?SoftwareDevelopment?Ddp124Map?Ddp124Map?SemanticDomainInfo.cs" caret="3331" fromTop="35" />
+	  <File id="d:&amp;/f:SemanticDomainInfo.cs/l:D!?SoftwareDevelopment?Ddp124Map?Ddp124Map?SemanticDomainInfo.cs" caret="2078" fromTop="16" />
+	</RecentEdits>
   </RecentFiles>
   <UnitTestRunner>
 	<Providers />
   </UnitTestRunner>
+  <CompletionStatisticsManager>
+	<ItemStatistics item="Default">
+	  <Item value="public" priority="12" />
+	  <Item value="void" priority="4" />
+	  <Item value="string" priority="53" />
+	  <Item value="new" priority="51" />
+	  <Item value="XmlReader" priority="0" />
+	  <Item value="filePath" priority="2" />
+	  <Item value="fileReader" priority="45" />
+	  <Item value="_AppDomain" priority="0" />
+	  <Item value="private" priority="3" />
+	  <Item value="Dictionary&lt;string,string&gt;" priority="4" />
+	  <Item value="searchKeys&lt;string,string&gt;" priority="0" />
+	  <Item value="Dictionary" priority="7" />
+	  <Item value="_abbreviation" priority="2" />
+	  <Item value="writingSystemId" priority="2" />
+	  <Item value="name" priority="0" />
+	  <Item value="if" priority="30" />
+	  <Item value="SemanticDomainInfo" priority="22" />
+	  <Item value="key" priority="3" />
+	  <Item value="UnhandledExceptionEventArgs" priority="0" />
+	  <Item value="_key" priority="0" />
+	  <Item value="_keyName" priority="1" />
+	  <Item value="_number" priority="1" />
+	  <Item value="KeyNotFoundException" priority="0" />
+	  <Item value="return" priority="10" />
+	  <Item value="Number" priority="0" />
+	  <Item value="SemanticDomainReader" priority="1" />
+	  <Item value="static" priority="2" />
+	  <Item value="Console" priority="13" />
+	  <Item value="IEnumerator" priority="0" />
+	  <Item value="List" priority="9" />
+	  <Item value="while" priority="5" />
+	  <Item value="semanticDamin" priority="1" />
+	  <Item value="semanticDomains" priority="3" />
+	  <Item value="foreach" priority="13" />
+	  <Item value="IEnumerable" priority="0" />
+	  <Item value="_semanticDomains" priority="2" />
+	  <Item value="for" priority="0" />
+	  <Item value="semanticDomain" priority="23" />
+	  <Item value="SemanticDomainCollection" priority="5" />
+	  <Item value="Ddp124Map" priority="1" />
+	  <Item value="semanticDoamins" priority="0" />
+	  <Item value="XmlNodeType" priority="4" />
+	  <Item value="switch" priority="0" />
+	  <Item value="null" priority="1" />
+	  <Item value="throw" priority="12" />
+	  <Item value="ApplicationException" priority="5" />
+	  <Item value="else" priority="7" />
+	  <Item value="String" priority="6" />
+	  <Item value="readonly" priority="0" />
+	  <Item value="reader" priority="1" />
+	  <Item value="DdpXmlReader" priority="0" />
+	  <Item value="continue" priority="0" />
+	  <Item value="interface" priority="0" />
+	  <Item value="XmlToSemanticDomainReader" priority="2" />
+	  <Item value="InvalidOperationException" priority="5" />
+	  <Item value="FormReader" priority="1" />
+	  <Item value="langToStringMap" priority="3" />
+	  <Item value="writingsystemId" priority="3" />
+	  <Item value="form" priority="4" />
+	  <Item value="semanticDomainToPopulate" priority="0" />
+	  <Item value="KeyReader" priority="0" />
+	  <Item value="NameReader" priority="0" />
+	  <Item value="KeyValuePair" priority="5" />
+	  <Item value="KeyValuePair&lt;string,string&gt;" priority="1" />
+	  <Item value="langToFormMap" priority="1" />
+	  <Item value="keyValue" priority="0" />
+	  <Item value="wsIdToFormMap" priority="7" />
+	  <Item value="NameTable" priority="0" />
+	  <Item value="FormsCollectionReader" priority="2" />
+	  <Item value="FieldAccessException" priority="0" />
+	  <Item value="XmlReaderSettings" priority="1" />
+	  <Item value="settings" priority="6" />
+	  <Item value="true" priority="1" />
+	  <Item value="bool" priority="2" />
+	  <Item value="break" priority="4" />
+	  <Item value="readerHasReachedEndOfOption" priority="0" />
+	  <Item value="formsCollectionsName" priority="0" />
+	  <Item value="wsIdAndForm" priority="3" />
+	  <Item value="List&lt;string&gt;" priority="0" />
+	  <Item value="Dictionary&lt;string,List&lt;string&gt;&gt;" priority="1" />
+	  <Item value="List&lt;SemanticDomainInfo&gt;" priority="0" />
+	  <Item value="yield return" priority="0" />
+	  <Item value="XmlWriter" priority="0" />
+	  <Item value="XmlWriterSettings" priority="1" />
+	  <Item value="Encoding" priority="0" />
+	  <Item value="path" priority="0" />
+	  <Item value="fileWriter" priority="21" />
+	  <Item value="wsIdAndForms" priority="5" />
+	  <Item value="semanticDomainsDdp1" priority="2" />
+	  <Item value="SemanticDomainWriter" priority="0" />
+	  <Item value="FileStyleUriParser" priority="0" />
+	  <Item value="filePath1" priority="0" />
+	  <Item value="filePathToDdp1" priority="2" />
+	  <Item value="filePathToDdp4" priority="0" />
+	  <Item value="FileStream" priority="0" />
+	  <Item value="FileMode" priority="0" />
+	  <Item value="newDdpFile" priority="0" />
+	  <Item value="int" priority="2" />
+	  <Item value="original" priority="0" />
+	  <Item value="newLine" priority="2" />
+	  <Item value="originalLine" priority="2" />
+	  <Item value="AssertionException" priority="0" />
+	  <Item value="ConformanceLevel" priority="0" />
+	  <Item value="System" priority="0" />
+	  <Item value="NewLineHandling" priority="0" />
+	  <Item value="Environment" priority="0" />
+	  <Item value="i" priority="2" />
+	  <Item value="Guid" priority="0" />
+	  <Item value="semanticDomainsDdp4" priority="2" />
+	  <Item value="map" priority="3" />
+	  <Item value="ddp4SemanticDomain" priority="1" />
+	  <Item value="ddp1SemanticDomain" priority="4" />
+	  <Item value="mergedSemanticDomain" priority="0" />
+	  <Item value="StreamReader" priority="0" />
+	  <Item value="stream" priority="0" />
+	  <Item value="Regex" priority="2" />
+	  <Item value="lineWithInterestingRule" priority="2" />
+	  <Item value="line" priority="4" />
+	  <Item value="Tests" priority="0" />
+	  <Item value="using" priority="0" />
+	  <Item value="Test" priority="0" />
+	  <Item value="Assert" priority="0" />
+	  <Item value="regEx" priority="0" />
+	  <Item value="MatchCollection" priority="0" />
+	  <Item value="matches" priority="1" />
+	  <Item value="numberMatcher" priority="0" />
+	  <Item value="correspondingNumberInDdp4" priority="0" />
+	  <Item value="numberOfDomainToFind" priority="0" />
+	  <Item value="mergedSemanticDomains" priority="1" />
+	  <Item value="semanticDomainToMergeInto" priority="1" />
+	  <Item value="this" priority="3" />
+	  <Item value="newFormsCollection" priority="0" />
+	  <Item value="thisFormCollection" priority="4" />
+	  <Item value="wsIdAndFormsInThat" priority="1" />
+	</ItemStatistics>
+	<ItemStatistics item="Qualified:@System.Xml.XmlReader">
+	  <Item value="Create" priority="0" />
+	</ItemStatistics>
+	<ItemStatistics item="Qualified:System.Collections.Generic.Dictionary`2">
+	  <Item value="Add" priority="6" />
+	  <Item value="ContainsKey" priority="4" />
+	  <Item value="Remove" priority="1" />
+	</ItemStatistics>
+	<ItemStatistics item="Qualified:System.String">
+	  <Item value="Split" priority="0" />
+	  <Item value="Trim" priority="1" />
+	  <Item value="ToLower" priority="0" />
+	  <Item value="Contains" priority="0" />
+	</ItemStatistics>
+	<ItemStatistics item="Qualified:System.Xml.XmlReader">
+	  <Item value="ReadToDescendant" priority="0" />
+	  <Item value="LocalName" priority="0" />
+	  <Item value="EOF" priority="0" />
+	  <Item value="Name" priority="17" />
+	  <Item value="Read" priority="5" />
+	  <Item value="ReadString" priority="2" />
+	  <Item value="NodeType" priority="5" />
+	  <Item value="GetAttribute" priority="3" />
+	  <Item value="IsEmptyElement" priority="2" />
+	  <Item value="Close" priority="0" />
+	</ItemStatistics>
+	<ItemStatistics item="Qualified:@System.Console">
+	  <Item value="WriteLine" priority="11" />
+	  <Item value="ReadLine" priority="0" />
+	</ItemStatistics>
+	<ItemStatistics item="Qualified:System.Collections.Generic.List`1">
+	  <Item value="Add" priority="4" />
+	</ItemStatistics>
+	<ItemStatistics item="Qualified:@Ddp124Map.SemanticDomainReader">
+	  <Item value="ReadFromFile" priority="1" />
+	</ItemStatistics>
+	<ItemStatistics item="Qualified:Ddp124Map.SemanticDomainInfo">
+	  <Item value="Key" priority="3" />
+	  <Item value="AddAbbreviationOverWriteIfNecassary" priority="0" />
+	  <Item value="AddNameOverWriteIfNecassary" priority="1" />
+	  <Item value="Names" priority="6" />
+	  <Item value="Abbreviation" priority="2" />
+	  <Item value="Descriptions" priority="3" />
+	  <Item value="SearchKeys" priority="4" />
+	  <Item value="Number" priority="4" />
+	</ItemStatistics>
+	<ItemStatistics item="Qualified:Ddp124Map.SemanticDomainCollection">
+	  <Item value="PrintAllSemanticDomainkeys" priority="0" />
+	  <Item value="AllSemanticDomains" priority="1" />
+	  <Item value="AddSemanticDomain" priority="0" />
+	</ItemStatistics>
+	<ItemStatistics item="Qualified:@System.Xml.XmlNodeType">
+	  <Item value="EndElement" priority="2" />
+	  <Item value="Whitespace" priority="1" />
+	</ItemStatistics>
+	<ItemStatistics item="Qualified:@System.String">
+	  <Item value="Format" priority="6" />
+	</ItemStatistics>
+	<ItemStatistics item="Qualified:Ddp124Map.FormReader">
+	  <Item value="PopulateSemanticDomainFromXml" priority="0" />
+	</ItemStatistics>
+	<ItemStatistics item="Qualified:Ddp124Map.KeyReader">
+	  <Item value="PopulateSemanticDomainFromXml" priority="0" />
+	</ItemStatistics>
+	<ItemStatistics item="Qualified:Ddp124Map.NameReader">
+	  <Item value="PopulateSemanticDomainFromXml" priority="0" />
+	</ItemStatistics>
+	<ItemStatistics item="Qualified:System.Collections.Generic.KeyValuePair`2">
+	  <Item value="Key" priority="11" />
+	  <Item value="Value" priority="5" />
+	</ItemStatistics>
+	<ItemStatistics item="Qualified:Ddp124Map.FormsCollectionReader">
+	  <Item value="PopulateFormsFromXml" priority="2" />
+	</ItemStatistics>
+	<ItemStatistics item="Qualified:System.Xml.XmlReaderSettings">
+	  <Item value="IgnoreWhitespace" priority="0" />
+	</ItemStatistics>
+	<ItemStatistics item="Qualified:Ddp124Map.OptionReader">
+	  <Item value="PopulateSemanticDomainFromXml" priority="0" />
+	</ItemStatistics>
+	<ItemStatistics item="Qualified:@System.Xml.XmlWriter">
+	  <Item value="Create" priority="1" />
+	</ItemStatistics>
+	<ItemStatistics item="Qualified:System.Xml.XmlWriterSettings">
+	  <Item value="Indent" priority="0" />
+	  <Item value="Encoding" priority="0" />
+	  <Item value="ConformanceLevel" priority="0" />
+	  <Item value="NewLineChars" priority="0" />
+	  <Item value="IndentChars" priority="0" />
+	</ItemStatistics>
+	<ItemStatistics item="Qualified:@System.Text.Encoding">
+	  <Item value="UTF8" priority="0" />
+	</ItemStatistics>
+	<ItemStatistics item="Qualified:System.Xml.XmlWriter">
+	  <Item value="WriteStartElement" priority="4" />
+	  <Item value="WriteString" priority="1" />
+	  <Item value="WriteEndElement" priority="4" />
+	  <Item value="WriteAttributeString" priority="1" />
+	  <Item value="WriteStartDocument" priority="1" />
+	  <Item value="WriteDocType" priority="0" />
+	  <Item value="Close" priority="0" />
+	  <Item value="WriteAttributes" priority="0" />
+	</ItemStatistics>
+	<ItemStatistics item="Qualified:@Ddp124Map.SemanticDomainWriter">
+	  <Item value="WriteToFile" priority="0" />
+	</ItemStatistics>
+	<ItemStatistics item="Qualified:@System.IO.FileMode">
+	  <Item value="Open" priority="0" />
+	</ItemStatistics>
+	<ItemStatistics item="Qualified:System.IO.StreamReader">
+	  <Item value="ReadLine" priority="2" />
+	</ItemStatistics>
+	<ItemStatistics item="Qualified:@System.Xml.ConformanceLevel">
+	  <Item value="Document" priority="1" />
+	  <Item value="Fragment" priority="0" />
+	</ItemStatistics>
+	<ItemStatistics item="Qualified:@System.Environment">
+	  <Item value="NewLine" priority="0" />
+	</ItemStatistics>
+	<ItemStatistics item="Qualified:@System.Guid">
+	  <Item value="NewGuid" priority="0" />
+	</ItemStatistics>
+	<ItemStatistics item="Qualified:System.Guid">
+	  <Item value="ToString" priority="0" />
+	</ItemStatistics>
+	<ItemStatistics item="Qualified:System.Text.RegularExpressions.Regex">
+	  <Item value="Match" priority="3" />
+	  <Item value="Matches" priority="1" />
+	</ItemStatistics>
+	<ItemStatistics item="Qualified:System.Text.RegularExpressions.Match">
+	  <Item value="Success" priority="3" />
+	  <Item value="Value" priority="1" />
+	</ItemStatistics>
+	<ItemStatistics item="Qualified:@NUnit.Framework.Assert">
+	  <Item value="IsTrue" priority="0" />
+	</ItemStatistics>
+	<ItemStatistics item="Qualified:System.Text.RegularExpressions.MatchCollection">
+	  <Item value="Count" priority="0" />
+	</ItemStatistics>
+  </CompletionStatisticsManager>
 </Configuration>
