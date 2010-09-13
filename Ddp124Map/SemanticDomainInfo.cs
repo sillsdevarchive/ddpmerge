@@ -75,14 +75,11 @@ namespace Ddp124Map
 
 		private Dictionary<string, List<string>> MergeTranslationsInFormCollections(Dictionary<string, List<string>> thisFormCollection, Dictionary<string, List<string>> otherFormCollection)
 		{
-			if(FormCollectionsContainEvenOneIdenticalLine(thisFormCollection, otherFormCollection))
+			foreach (KeyValuePair<string, List<string>> wsIdAndForms in otherFormCollection)
 			{
-				foreach (KeyValuePair<string, List<string>> wsIdAndForms in otherFormCollection)
+				if (!thisFormCollection.ContainsKey(wsIdAndForms.Key))
 				{
-					if (!thisFormCollection.ContainsKey(wsIdAndForms.Key))
-					{
-						thisFormCollection.Add(wsIdAndForms.Key, wsIdAndForms.Value);
-					}
+					thisFormCollection.Add(wsIdAndForms.Key, wsIdAndForms.Value);
 				}
 			}
 			return thisFormCollection;
