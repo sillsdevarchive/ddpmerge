@@ -53,7 +53,7 @@ namespace Ddp124Map
 					SemanticDomainQuestions newQuestions = new SemanticDomainQuestions(Guid.NewGuid(), semanticDomainKey);
 					thaiDdp4Questions.DomainKeyToQuestionsMap.Add(semanticDomainKey, newQuestions);
 				}
-				thaiDdp4Questions.DomainKeyToQuestionsMap[semanticDomainKey].Questions = domainQuestions.Questions;
+				thaiDdp4Questions.DomainKeyToQuestionsMap[semanticDomainKey].Questions.AddRange(domainQuestions.Questions);
 			}
 
 			SemanticDomainQuestionsWriter.WriteToFile(newQuestionsFile, thaiDdp4Questions);
