@@ -16,7 +16,7 @@ namespace Ddp124Map
 
 		private SemanticDomainsVersion _version;
 		private string _wsId;
-		private Dictionary<string, SemanticDomainQuestions> _domainKeyToQuestionsMap = new Dictionary<string, SemanticDomainQuestions>();
+		private SortedDictionary<string, SemanticDomainQuestions> _domainKeyToQuestionsMap = new SortedDictionary<string, SemanticDomainQuestions>();
 
 		public SemanticDomainQuestionsCollection(SemanticDomainsVersion version, string writingSystemId)
 		{
@@ -38,7 +38,7 @@ namespace Ddp124Map
 			set { _wsId = value; }
 		}
 
-		public Dictionary<string, SemanticDomainQuestions> DomainKeyToQuestionsMap
+		public SortedDictionary<string, SemanticDomainQuestions> DomainKeyToQuestionsMap
 		{
 			get { return _domainKeyToQuestionsMap; }
 			set { _domainKeyToQuestionsMap = value; }
