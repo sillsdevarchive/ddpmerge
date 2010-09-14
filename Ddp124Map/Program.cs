@@ -12,9 +12,12 @@ namespace Ddp124Map
 		{
 			string filePathToDdp1 = @"D:\SoftwareDevelopment\Ddp124Map\DDP4\Ddp1.xml";
 			string filePathToDdp4 = @"D:\SoftwareDevelopment\Ddp124Map\DDP4\Ddp4.xml";
+			string filePathToThaiDdp1Questions = @"D:\SoftwareDevelopment\Ddp124Map\DDP4\Ddp4Questions-th.xml";
+			string filePathToEnglishDdp4Questions = @"D:\SoftwareDevelopment\Ddp124Map\DDP4\Ddp4Questions-en.xml";
 			string filePathToMap = @"D:\SoftwareDevelopment\Ddp124Map\DDP4\Semantic Domains v1 to v4 map.txt";
 
 			string newDdpFile = @"D:\SoftwareDevelopment\Ddp124Map\DDP4\newDdp.xml";
+			string newQuestionsFile = @"D:\SoftwareDevelopment\Ddp124Map\DDP4\newQuestion.xml";
 
 			SemanticDomainCollection semanticDomainsDdp1 = SemanticDomainReader.ReadFromFile(filePathToDdp1);
 			SemanticDomainCollection semanticDomainsDdp4 = SemanticDomainReader.ReadFromFile(filePathToDdp4);
@@ -33,7 +36,39 @@ namespace Ddp124Map
 
 			SemanticDomainWriter.WriteToFile(newDdpFile, semanticDomainsDdp4);
 
+			SemanticDomainQuestionsCollection thaiDdp1Questions =
+				SemanticDomainQuestionsReader.ReadFromFile(filePathToThaiDdp1Questions);
+
+			SemanticDomainQuestionsCollection thaiDdp4Questions = new SemanticDomainQuestionsCollection(thaiDdp1Questions.Version, thaiDdp1Questions.WritingSystemId);
+
+			foreach (SemanticDomainQuestions domainQuestions in thaiDdp1Questions.DomainKeyToQuestionsMap.Values)
+			{
+				string semanticDomainKey = GetMappedSemanticDomainKey(map, semanticDomainsDdp4, domainQuestions);
+
+				bool questionsForDomainAlreadyExist =
+					thaiDdp4Questions.DomainKeyToQuestionsMap.ContainsKey(semanticDomainKey);
+
+				if (!questionsForDomainAlreadyExist)
+				{
+					SemanticDomainQuestions newQuestions = new SemanticDomainQuestions(Guid.NewGuid(), semanticDomainKey);
+					thaiDdp4Questions.DomainKeyToQuestionsMap.Add(semanticDomainKey, newQuestions);
+				}
+				thaiDdp4Questions.DomainKeyToQuestionsMap[semanticDomainKey].Questions = domainQuestions.Questions;
+			}
+
+			SemanticDomainQuestionsWriter.WriteToFile(newQuestionsFile, thaiDdp4Questions);
+
 			Console.ReadLine();
+		}
+
+		private static string GetMappedSemanticDomainKey(Dictionary<string, string> map, SemanticDomainCollection semanticDomainsDdp4, SemanticDomainQuestions domainQuestions)
+		{
+			string semanticDomainNumber = domainQuestions.Number;
+			if(map.ContainsKey(domainQuestions.Number))
+			{
+				semanticDomainNumber = map[domainQuestions.Number];
+			}
+			return semanticDomainsDdp4.GetSemanticDomainWithNumber(semanticDomainNumber).Key;
 		}
 
 		private static void CompareFiles(string filePathToDdp1, string newDdpFile)
@@ -48,9 +83,9 @@ namespace Ddp124Map
 			{
 				i++;
 				newLine = newFile.ReadLine();
-				if(newLine != originalLine)
+				if(newLine.Trim() != originalLine.Trim())
 				{
-					//if(originalLine.Contains("guid")) break;
+					if(originalLine.Contains("guid")) continue;
 					Console.WriteLine(originalLine);
 					Console.WriteLine(newLine);
 					throw new ApplicationException(String.Format("The two files differ at line {0}. Please see the console for differences.", i));

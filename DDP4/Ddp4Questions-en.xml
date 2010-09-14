@@ -6,10 +6,12 @@
     </question>
   </semantic-domain>
   <semantic-domain guid="I999581C4-1611-4ACB-AE1B-5E6C1DFE6F0C" id="1.1 Sky">
-    <question>What words are used to refer to the sky? (sky, firmament, canopy, vault)
+    <question>
+	  What words are used to refer to the sky? (sky, firmament, canopy, vault)
     </question>
     <question>
-      What words refer to the air around the earth? (air, atmosphere, airspace, stratosphere, ozone layer)</question>
+      What words refer to the air around the earth? (air, atmosphere, airspace, stratosphere, ozone layer)
+	  </question>
     <question>
       What words are used to refer to the place or area beyond the sky? (heaven, space, outer space, ether, void, solar system)
     </question>
@@ -1377,11 +1379,15 @@
     <question>
       What general words refer to moss? (moss)
     </question>
-    <question>What species of moss are there?</question>
+    <question>
+What species of moss are there?
+</question>
     <question>
       What general words refer to liverworts? (liverwort)
     </question>
-    <question>What species of liverworts are there?</question>
+    <question>
+What species of liverworts are there?
+</question>
     <question>
       What general words refer to algae? (algae, gulfweed, seaweed, wrack)
     </question>
@@ -7474,7 +7480,9 @@
     <question>
       What words indicate that you don't care about someone else's problem? (not my problem, not my concern, that's your problem, (that's just) tough)
     </question>
-    <question>What expressions do people use when they don't care?</question>
+    <question>
+What expressions do people use when they don't care?
+</question>
     <question>
       What words refer to not being aware of other people's feelings? (insensitive)
     </question>
@@ -8352,7 +8360,9 @@
     <question>
       What words refer to what is said a second time? (repetition, recapitulation)
     </question>
-    <question>What do you say when you want someone to repeat something?</question>
+    <question>
+What do you say when you want someone to repeat something?
+</question>
   </semantic-domain>
   <semantic-domain guid="I728BBC7C-E5B3-47D8-8532-72239E5C88BB" id="3.5.1.2.7 Summarize">
     <question>
@@ -8504,7 +8514,9 @@
     <question>
       What words refer to a refusal to greet someone? (refuse to greet, snub, ignore)
     </question>
-    <question>What words and expressions are used when greeting someone?</question>
+    <question>
+What words and expressions are used when greeting someone?
+</question>
   </semantic-domain>
   <semantic-domain guid="IA9625460-7162-447C-B400-84FBC5744F1B" id="3.5.1.4.4 Say farewell">
     <question>
@@ -8635,8 +8647,12 @@
     <question>
       What words refer to the feeling of wanting to thank someone? (appreciation, gratitude,)
     </question>
-    <question>What do people say when they thank someone?</question>
-    <question>What do people say when someone thanks them?</question>
+    <question>
+What do people say when they thank someone?
+</question>
+    <question>
+What do people say when someone thanks them?
+</question>
     <question>
       What words refer to not thanking someone? (ingratitude)
     </question>
@@ -10015,8 +10031,12 @@
     <question>
       What words refer to people who are related to you by marriage? (in-law, father-in-law, mother-in-law, brother-in-law, sister-in-law, son-in-law, daughter-in-law)
     </question>
-    <question>What words describe the relationship between a husband's parents and his wife's parents?</question>
-    <question>What words describe the relationship between a husband's siblings and his wife's siblings?</question>
+    <question>
+What words describe the relationship between a husband's parents and his wife's parents?
+</question>
+    <question>
+What words describe the relationship between a husband's siblings and his wife's siblings?
+</question>
   </semantic-domain>
   <semantic-domain guid="I04370E1F-25AA-4D9E-97C5-DE9B59156666" id="4.1.9.3 Widow, widower">
     <question>
@@ -13808,7 +13828,9 @@
     </question>
   </semantic-domain>
   <semantic-domain guid="I2CCAB97A-FB98-4054-A29B-E5CEAC8CA1B4" id="4.9.5.3 Worship">
-    <question>What words refer to relating to God or to the spirits?</question>
+    <question>
+What words refer to relating to God or to the spirits?
+</question>
     <question>
       What words refer to acts of worship toward God? (worship, adore, revere, reverence, lift up your heart, pay homage)
     </question>
@@ -14464,8 +14486,12 @@
     <question>
       What words refer to what is drunk? (drink (n))
     </question>
-    <question>What expressions are used to ask for a drink?</question>
-    <question>What expressions are used to offer a drink?</question>
+    <question>
+What expressions are used to ask for a drink?
+</question>
+    <question>
+What expressions are used to offer a drink?
+</question>
   </semantic-domain>
   <semantic-domain guid="IB4E6C077-4F5E-44F3-8868-1F7AE3486585" id="5.2.2.8 Eating utensil">
     <question>
@@ -15007,8 +15033,12 @@
     <question>
       What kinds of braids are there? (French braid)
     </question>
-    <question>What techniques are used?</question>
-    <question>What things are used?</question>
+    <question>
+What techniques are used?
+</question>
+    <question>
+What things are used?
+</question>
   </semantic-domain>
   <semantic-domain guid="I64FA0BA7-73CB-40E9-A8D2-3E61FFF146C9" id="5.4.3.3 Dye hair">
     <question>
@@ -15484,7 +15514,9 @@
     <question>
       What are the symptoms of beginning to go to sleep? (nod, yawn, stretch, eyelids droop)
     </question>
-    <question>What do you say when you are beginning to go to sleep?</question>
+    <question>
+What do you say when you are beginning to go to sleep?
+</question>
     <question>
       What words are used of someone causing someone to go to sleep? (put to sleep, put to bed)
     </question>
@@ -15494,7 +15526,9 @@
     <question>
       What words refer to going to bed early or late? (early night, late night, stay up,)
     </question>
-    <question>What does someone say to someone else who is going to sleep?</question>
+    <question>
+What does someone say to someone else who is going to sleep?
+</question>
     <question>
       What special clothes are used when sleeping? (pajamas, pj's, jammies, nightgown, nightie, nightclothes)
     </question>
@@ -17445,7 +17479,9 @@
     </question>
   </semantic-domain>
   <semantic-domain guid="I49471924-2458-4CB0-9430-F38CFC2FB63B" id="6.6.4.4 Working with bone">
-    <question>What words refer to working with bones?</question>
+    <question>
+What words refer to working with bones?
+</question>
     <question>
       What words refer to things made from bones? (bone, horn, shell)
     </question>
@@ -17667,7 +17703,9 @@
     <question>
       What types of digging tools are there? (hoe, pick, shovel, spade)
     </question>
-    <question>What words are used to describe the actions done with these tools?</question>
+    <question>
+What words are used to describe the actions done with these tools?
+</question>
   </semantic-domain>
   <semantic-domain guid="I65C68427-2E20-42B2-8F49-623055EA9246" id="6.7.2 Pounding tool">
     <question>
@@ -17681,13 +17719,17 @@
     <question>
       What tools are used for carrying things? (pole, pack, backpack, suitcase, case, briefcase, sling, stretcher, tray, grass ring for head, carrying basket for back, rope, string, liana)
     </question>
-    <question>What words are used to describe the actions done with these tools?</question>
+    <question>
+What words are used to describe the actions done with these tools?
+</question>
   </semantic-domain>
   <semantic-domain guid="IBE4AB208-1FA0-463F-9CA0-4C7E3E03AAFD" id="6.7.4 Lifting tool">
     <question>
       What tools are used for lifting things? (lever, pulley, block and tackle)
     </question>
-    <question>What words are used to describe the actions done with these tools?</question>
+    <question>
+What words are used to describe the actions done with these tools?
+</question>
   </semantic-domain>
   <semantic-domain guid="I5CD2F365-2D84-451E-9F2D-BC2561EFF909" id="6.7.5 Fastening tool">
     <question>
@@ -17720,13 +17762,17 @@
     <question>
       What words refer to bags? (bag, purse)
     </question>
-    <question>What words are used to describe the actions done with these tools?</question>
+    <question>
+What words are used to describe the actions done with these tools?
+</question>
   </semantic-domain>
   <semantic-domain guid="I3ACF5E20-B626-4F0A-A582-D386A0E30792" id="6.7.7.2 Sheath">
     <question>
       What words refer to sheaths? (sheath, holster)
     </question>
-    <question>What words are used to describe the actions done with these tools?</question>
+    <question>
+What words are used to describe the actions done with these tools?
+</question>
   </semantic-domain>
   <semantic-domain guid="I3AEC74E5-6CFD-46D2-B26F-503FAD761583" id="6.7.8 Parts of tools">
     <question>
@@ -18001,7 +18047,9 @@
     <question>
       What words refer to setting a price for something? (price, set price, fix price, raise price, lower price, value, charge)
     </question>
-    <question>What words do people use when they ask the price of something?</question>
+    <question>
+What words do people use when they ask the price of something?
+</question>
   </semantic-domain>
   <semantic-domain guid="IA755EABA-FCE9-4A8B-B9CF-B3970A49F464" id="6.8.4.3.1 Expensive">
     <question>
@@ -18974,13 +19022,17 @@
     <question>
       What words refer to moving away from the speaker? (go (away), leave here/this place, get out of here)
     </question>
-    <question>What do people say when they want someone to go away?</question>
+    <question>
+What do people say when they want someone to go away?
+</question>
   </semantic-domain>
   <semantic-domain guid="IAA8D812B-7C13-414A-AD02-A4240D2CEF68" id="7.2.3.2.1 Come">
     <question>
       What words refer to moving toward the speaker? (come, come here)
     </question>
-    <question>What do people say when they want someone to come?</question>
+    <question>
+What do people say when they want someone to come?
+</question>
   </semantic-domain>
   <semantic-domain guid="I20E7D987-0D55-46D4-AB69-0B0CCE2F1E24" id="7.2.3.3 Leave">
     <question>
@@ -22332,7 +22384,9 @@
     <question>
       What words indicate that something (like an area or road) continues for some distance? (extend, stretch, go on, continue, spread)
     </question>
-    <question>What question words ask for the distance between two things?</question>
+    <question>
+What question words ask for the distance between two things?
+</question>
   </semantic-domain>
   <semantic-domain guid="IBBA30B56-6CD8-4542-81AB-F983CF1354BD" id="8.2.6.1 Far">
     <question>
@@ -24205,7 +24259,9 @@
     <question>
       What words refer to something missing from a group of things in order? (gap)
     </question>
-    <question>In English 'Order' can be expressed by a noun phrase with no overt marker.</question>
+    <question>
+In English 'Order' can be expressed by a noun phrase with no overt marker.
+</question>
     <question>
       In English 'Order' can be expressed by a 'be' clause with the 'Item' in the subject position. (be,)
     </question>
@@ -24535,7 +24591,9 @@
     <question>
       What words refer to postponing something because you are lazy? (put off, procrastinate,)
     </question>
-    <question>What do people say when they postpone doing something?</question>
+    <question>
+What do people say when they postpone doing something?
+</question>
   </semantic-domain>
   <semantic-domain guid="I18A6684F-D324-45EE-855C-44D473916B14" id="8.4.6 Aspectual time">
     <question>
@@ -25020,7 +25078,9 @@
     <question>
       What words refer to the speed at which a person acts? (speed, velocity, pace)
     </question>
-    <question>What words are used to indicate the speed of something?</question>
+    <question>
+What words are used to indicate the speed of something?
+</question>
   </semantic-domain>
   <semantic-domain guid="I2FC69F71-E9F1-45F9-B88E-BDAF97457FC3" id="8.4.8.1 Quick">
     <question>
@@ -25368,12 +25428,24 @@
     <question>
       What words indicate that something contains something? (have, of, -'s, contain, hold)
     </question>
-    <question>In English 'Containership' can be expressed by a clause using the verb 'contain' with the 'Container' in the subject position and the 'Content' in the object position.</question>
-    <question>In English 'Containership' can be expressed by a clause using the verb with the 'Container' in the subject position, the 'Content' in the object position, and the 'Container' in a preposition phrase marked by 'in'.</question>
-    <question>In English 'Containership' can be expressed by a noun phrase with the 'Container' as the head and the 'Content' marked by 'of'.</question>
-    <question>In English 'Containership' can be expressed by a noun phrase with the word 'container' as the head and the 'Content' marked by 'of'.</question>
-    <question>In English 'Containership' can be expressed by a noun phrase with the word 'contents' as the head and the 'Container' marked by 'of'.</question>
-    <question>In English 'Containership' can be expressed by a possession phrase with the 'Container' in the first position and the word 'contents' in the second position.</question>
+    <question>
+In English 'Containership' can be expressed by a clause using the verb 'contain' with the 'Container' in the subject position and the 'Content' in the object position.
+</question>
+    <question>
+In English 'Containership' can be expressed by a clause using the verb with the 'Container' in the subject position, the 'Content' in the object position, and the 'Container' in a preposition phrase marked by 'in'.
+</question>
+    <question>
+In English 'Containership' can be expressed by a noun phrase with the 'Container' as the head and the 'Content' marked by 'of'.
+</question>
+    <question>
+In English 'Containership' can be expressed by a noun phrase with the word 'container' as the head and the 'Content' marked by 'of'.
+</question>
+    <question>
+In English 'Containership' can be expressed by a noun phrase with the word 'contents' as the head and the 'Container' marked by 'of'.
+</question>
+    <question>
+In English 'Containership' can be expressed by a possession phrase with the 'Container' in the first position and the word 'contents' in the second position.
+</question>
   </semantic-domain>
   <semantic-domain guid="I91913920-8A6A-4BA0-9361-D6CC9E1F3639" id="8.6 Parts of things">
     <question>
@@ -25578,8 +25650,12 @@
     <question>
       What words are used to indicate an attribute of something? (found to be, discover to be, turn out to be, be in many ways)
     </question>
-    <question>What words indicate a point on a scale?</question>
-    <question>What words indicate an evaluation of something?</question>
+    <question>
+What words indicate a point on a scale?
+</question>
+    <question>
+What words indicate an evaluation of something?
+</question>
   </semantic-domain>
   <semantic-domain guid="IE28F3F79-D4A5-402C-8A70-196856791078" id="9.1.2 Do">
     <question>
@@ -26026,23 +26102,57 @@
   <semantic-domain guid="I61A28BDC-C05C-49D8-B47E-D54A9082156C" id="9.4 Semantic constituents related to verbs" />
   <semantic-domain guid="I793993AC-20C1-49F0-9716-E4CDC7DA4439" id="9.4.1 Tense and aspect" />
   <semantic-domain guid="IDF2EE830-0668-43D7-8A32-E2FD3E7B31D8" id="9.4.1.1 Tense">
-    <question>present: the situation occurs simultaneously with the moment of speech.</question>
-    <question>past: the situation occurred before the moment of speech.</question>
-    <question>future: the situation takes place after the moment of speech; the speaker predicts that the situation in the proposition will hold.</question>
-    <question>crastinal: tomorrow.</question>
-    <question>hesternal: yesterday.</question>
-    <question>hodiernal: today, normally with past.</question>
-    <question>pre-hodiernal: before today.</question>
-    <question>post-crastinal: after tomorrow.</question>
-    <question>ancient past: used for narrating events in ancient or mythical time.</question>
-    <question>remote: combines with other tense labels to indicate a situation occurring temporally distant from the moment of speech.</question>
-    <question>immediate: a meaning label that may be combined with other tense labels to indicate a situation not simultaneous with the moment of speech, but very close to it.</question>
-    <question>immediate future: what is about to occur.</question>
-    <question>immediate past: occurring immediately before the moment of speech. Also called the Recent Past. Do not use this label if there is any sense of current relevance--use anterior for that.</question>
-    <question>Immediate may also be combined with anterior or imperative.</question>
-    <question>expected future: the situation is to occur in the near future; what is scheduled to happen.</question>
-    <question>narrative time: the use of a form with no other past uses for reporting a past narrative.</question>
-    <question>gnomic present: the situation described in the proposition is generic; the predicate has held, holds, and will hold for the class of entities named by the subject, such as 'Elephants have trunks'.</question>
+    <question>
+present: the situation occurs simultaneously with the moment of speech.
+</question>
+    <question>
+past: the situation occurred before the moment of speech.
+</question>
+    <question>
+future: the situation takes place after the moment of speech; the speaker predicts that the situation in the proposition will hold.
+</question>
+    <question>
+crastinal: tomorrow.
+</question>
+    <question>
+hesternal: yesterday.
+</question>
+    <question>
+hodiernal: today, normally with past.
+</question>
+    <question>
+pre-hodiernal: before today.
+</question>
+    <question>
+post-crastinal: after tomorrow.
+</question>
+    <question>
+ancient past: used for narrating events in ancient or mythical time.
+</question>
+    <question>
+remote: combines with other tense labels to indicate a situation occurring temporally distant from the moment of speech.
+</question>
+    <question>
+immediate: a meaning label that may be combined with other tense labels to indicate a situation not simultaneous with the moment of speech, but very close to it.
+</question>
+    <question>
+immediate future: what is about to occur.
+</question>
+    <question>
+immediate past: occurring immediately before the moment of speech. Also called the Recent Past. Do not use this label if there is any sense of current relevance--use anterior for that.
+</question>
+    <question>
+Immediate may also be combined with anterior or imperative.
+</question>
+    <question>
+expected future: the situation is to occur in the near future; what is scheduled to happen.
+</question>
+    <question>
+narrative time: the use of a form with no other past uses for reporting a past narrative.
+</question>
+    <question>
+gnomic present: the situation described in the proposition is generic; the predicate has held, holds, and will hold for the class of entities named by the subject, such as 'Elephants have trunks'.
+</question>
     <question>
       What general words refer to the tense of an event? (tense, time)
     </question>
@@ -26057,20 +26167,48 @@
     </question>
   </semantic-domain>
   <semantic-domain guid="ICCBBD16F-58C5-45C1-BFFF-1FBA64D9740E" id="9.4.1.2 Aspect--dynamic verbs">
-    <question>habitual: the situation is customary or usual, repeated on different occasion over a period of time. English 'used to' is past habitual; English 'Nancy sings' is present habitual.</question>
-    <question>continuous: a single situation is viewed as in progress, as maintained over a period of time; also called "durative." The English "Progressive" is a continuous restricted to dynamic words. English 'I am reading; *I am knowing the number'.</question>
-    <question>continuative: keep on doing what is being done. Restricted to dynamic words.</question>
-    <question>progressive: the action takes place simultaneously with the moment of reference, 'to be in the process of...'. This is more restricted than the English Progressive, which may be used for events that are not actually in progress at reference time: 'I am writing a book' may be used even if the speaker is not at that moment writing.</question>
-    <question>excessive duration: action is extended over a long period of time, longer than normal for that action.</question>
-    <question>limited duration: action performed for a relatively short or bounded period of time.</question>
-    <question>iterative: the action is repeated on one occasion; usually restricted to dynamic words, often further restricted to semelfactive words.</question>
-    <question>frequentative: action occurs frequently, not necessarily habitually, nor necessarily on one occasion, as is the iterative.</question>
-    <question>imperfective: the situation is viewed as unbounded in the sense that it is habitual, continuous, progressive, or iterative.</question>
-    <question>perfective: the situation is viewed as bounded temporally. It cannot be simultaneous with the moment of speech; in the non-past it is sometimes interpreted as future.</question>
-    <question>completive: to do something thoroughly and to completion, e.g. 'to shoot someone dead, to eat up'.</question>
-    <question>inceptive: the action or event begins. We are distinguishing this from the beginning of a state.</question>
-    <question>delimited: action is performed only a little.</question>
-    <question>The preceding terms or "Aspects" are not usually relevant to stative words.</question>
+    <question>
+habitual: the situation is customary or usual, repeated on different occasion over a period of time. English 'used to' is past habitual; English 'Nancy sings' is present habitual.
+</question>
+    <question>
+continuous: a single situation is viewed as in progress, as maintained over a period of time; also called "durative." The English "Progressive" is a continuous restricted to dynamic words. English 'I am reading; *I am knowing the number'.
+</question>
+    <question>
+continuative: keep on doing what is being done. Restricted to dynamic words.
+</question>
+    <question>
+progressive: the action takes place simultaneously with the moment of reference, 'to be in the process of...'. This is more restricted than the English Progressive, which may be used for events that are not actually in progress at reference time: 'I am writing a book' may be used even if the speaker is not at that moment writing.
+</question>
+    <question>
+excessive duration: action is extended over a long period of time, longer than normal for that action.
+</question>
+    <question>
+limited duration: action performed for a relatively short or bounded period of time.
+</question>
+    <question>
+iterative: the action is repeated on one occasion; usually restricted to dynamic words, often further restricted to semelfactive words.
+</question>
+    <question>
+frequentative: action occurs frequently, not necessarily habitually, nor necessarily on one occasion, as is the iterative.
+</question>
+    <question>
+imperfective: the situation is viewed as unbounded in the sense that it is habitual, continuous, progressive, or iterative.
+</question>
+    <question>
+perfective: the situation is viewed as bounded temporally. It cannot be simultaneous with the moment of speech; in the non-past it is sometimes interpreted as future.
+</question>
+    <question>
+completive: to do something thoroughly and to completion, e.g. 'to shoot someone dead, to eat up'.
+</question>
+    <question>
+inceptive: the action or event begins. We are distinguishing this from the beginning of a state.
+</question>
+    <question>
+delimited: action is performed only a little.
+</question>
+    <question>
+The preceding terms or "Aspects" are not usually relevant to stative words.
+</question>
     <question>
       What general words refer to an aspect of an event? (aspect)
     </question>
@@ -26131,7 +26269,9 @@
     </question>
   </semantic-domain>
   <semantic-domain guid="I7BF05F4E-909F-40CA-B742-9BE21EBA9FBB" id="9.4.2 Agent-oriented modalities">
-    <question>ability: the agent of the verb has the mental or physical ability to complete the action of the main verb.</question>
+    <question>
+ability: the agent of the verb has the mental or physical ability to complete the action of the main verb.
+</question>
     <question>
       ability, mental: English: 'Melissa can speak Dutch'. (can,)
     </question>
@@ -26144,7 +26284,9 @@
     <question>
       desire: the agent of the verb desires or wants to complete the action of the verb. (want to, would like to,)
     </question>
-    <question>obligation: the agent is obliged to perform the action of the verb.</question>
+    <question>
+obligation: the agent is obliged to perform the action of the verb.
+</question>
     <question>
       obligation, strong: it is absolutely incumbent upon the agent to complete the action of the main verb: 'I have to mail this letter today'. (have to, must,)
     </question>
@@ -26202,16 +26344,36 @@
   </semantic-domain>
   <semantic-domain guid="IC3DDFC77-E3A6-450E-A853-111F5595DF87" id="9.4.3 Moods" />
   <semantic-domain guid="I965C6A0B-3034-4E2F-A00B-ED2EB3119A5D" id="9.4.3.1 Imperative ">
-    <question>imperative: the verb form used for direct commands in the 2nd person. If there are also 1st and 3rd person forms, the meaning can still be that of imperative, with the 1st and 3rd persons being interpreted as 'Let us, let him...', etc.</question>
-    <question>optative: the proposition represents the speaker's will. Translated into English as 'May you prosper', 'May we all meet again.' with counterfactual: 'If only he had...', etc.</question>
-    <question>hortative: the speaker is encouraging or inciting someone to action.</question>
-    <question>prohibitive: the mood for expressing negative commands. The English is 'Don't'.</question>
-    <question>admonitive: the command constitutes a warning: 'you had better not...'.</question>
-    <question>Meanings co-occurring with imperative:</question>
-    <question>polite: a mild or polite form of command.</question>
-    <question>delayed: the action of the command is to be carried out in the future rather than immediately.</question>
-    <question>immediate: the action of the command is to be carried out immediately.</question>
-    <question>strong: (self-explanatory).</question>
+    <question>
+imperative: the verb form used for direct commands in the 2nd person. If there are also 1st and 3rd person forms, the meaning can still be that of imperative, with the 1st and 3rd persons being interpreted as 'Let us, let him...', etc.
+</question>
+    <question>
+optative: the proposition represents the speaker's will. Translated into English as 'May you prosper', 'May we all meet again.' with counterfactual: 'If only he had...', etc.
+</question>
+    <question>
+hortative: the speaker is encouraging or inciting someone to action.
+</question>
+    <question>
+prohibitive: the mood for expressing negative commands. The English is 'Don't'.
+</question>
+    <question>
+admonitive: the command constitutes a warning: 'you had better not...'.
+</question>
+    <question>
+Meanings co-occurring with imperative:
+</question>
+    <question>
+polite: a mild or polite form of command.
+</question>
+    <question>
+delayed: the action of the command is to be carried out in the future rather than immediately.
+</question>
+    <question>
+immediate: the action of the command is to be carried out immediately.
+</question>
+    <question>
+strong: (self-explanatory).
+</question>
     <question>
       What words indicate that the sentence is a command? ((none in English))
     </question>
@@ -26246,7 +26408,9 @@
     <question>
       What words indicate that the sentence is a question? ((Japanese) ka? 'a particle coming at the end of a sentence to indicate that it is a question')
     </question>
-    <question>English has an interjection that is added to a statement that has the effect of questioning something about it.</question>
+    <question>
+English has an interjection that is added to a statement that has the effect of questioning something about it.
+</question>
   </semantic-domain>
   <semantic-domain guid="I3EA4C495-B837-4310-8741-38D89FA63E0B" id="9.4.4 Epistemic moods">
     <question>
@@ -26461,21 +26625,27 @@
     <question>
       auditory evidence: the speaker claims to have heard the situation described. (with my own ears I heard...,)
     </question>
-    <question>sensory evidence: the speaker claims to have physically sensed the situation described. This can be in opposition to one or both of the above senses (i.e. any other sense), or it can indicate sensory evidence that is not further specified (i.e. any sensory evidence).</question>
+    <question>
+sensory evidence: the speaker claims to have physically sensed the situation described. This can be in opposition to one or both of the above senses (i.e. any other sense), or it can indicate sensory evidence that is not further specified (i.e. any sensory evidence).
+</question>
     <question>
       indirect evidence: the speaker claims not to have witnessed the situation, but does not specify further whether the evidence is reported or simply inferred. (I wasn't there but...,)
     </question>
     <question>
       reported evidence: the speaker claims to know of the situation described via verbal means, but does not specify whether it is second-hand, hearsay, or via folklore. (I heard that...,)
     </question>
-    <question>second-hand evidence: the speaker claims to have heard of the situation described from someone who was a direct witness.</question>
+    <question>
+second-hand evidence: the speaker claims to have heard of the situation described from someone who was a direct witness.
+</question>
     <question>
       evidence from hearsay: the speaker claims to have heard about the situation described, but not from a direct witness. (it is rumored that...,)
     </question>
     <question>
       evidence from folklore: the speaker claims that the situation described is part of established oral history (e.g., mythology). (according to our ancestors...,)
     </question>
-    <question>inferred evidence: the speaker infers the event/action, but does not specify whether the inference is based on observable results or on a purely mental process.</question>
+    <question>
+inferred evidence: the speaker infers the event/action, but does not specify whether the inference is based on observable results or on a purely mental process.
+</question>
     <question>
       inference from results: the speaker infers the situation described from the evidence at hand (i.e. from the observable results of the causing event/action.) (from the results I would say...,)
     </question>
@@ -26506,7 +26676,9 @@
     <question>
       What words are used to refer to the process of denying the truth of something? (deny, denial, negate, negation, disavow, disavowal, contradict, contradiction, repudiate, repudiation)
     </question>
-    <question>What are the noun forms of these words?</question>
+    <question>
+What are the noun forms of these words?
+</question>
   </semantic-domain>
   <semantic-domain guid="IB4C1E05F-F741-45CC-8D13-A1F60F474325" id="9.4.6.2 Markers expecting an affirmative answer">
     <question>
@@ -26519,21 +26691,47 @@
     </question>
   </semantic-domain>
   <semantic-domain guid="I1DE2CEF5-3A2D-45C1-8CB6-06B2AC087907" id="9.4.7 Subordinating particles">
-    <question>subordinating: Often there are special verb forms or morphemes associated with the verb that occur obligatorily in subordinate clauses of certain types. The extent to which such morphemes can be said to have "meaning" varies, since they often co-occur with other markers of subordination. Their function is primarily to signal the type of subordinate clause.</question>
-    <question>Complement clauses: A main verb may take as its direct object a clause. These are often referred to as "Noun clauses" or "Noun complements". The verb form of the subordinate clause is usually determined by the semantics of the main verb, so in this case, our meaning labels will just refer to the context. If a verb form occurs in the complements to words of thinking and believing, the meaning label will be complement to words of thinking and believing.</question>
-    <question>complement to words of thinking</question>
-    <question>complement to words of believing</question>
-    <question>complement to words of saying</question>
-    <question>complement to words of ordering (in English we use an infinitive with these words)</question>
-    <question>complement to words of wanting (again in English these are done with infinitives)</question>
-    <question>complement to words of emotion (surprise, regret, happiness, sadness, etc.; the complement proposition is presupposed to be true)</question>
-    <question>complement to words of obligation</question>
-    <question>complement to words of admonition</question>
-    <question>subsequent: following a reference time in the past.</question>
-    <question>subordinator: marker indicates that the verb is in a subordinate clause.</question>
+    <question>
+subordinating: Often there are special verb forms or morphemes associated with the verb that occur obligatorily in subordinate clauses of certain types. The extent to which such morphemes can be said to have "meaning" varies, since they often co-occur with other markers of subordination. Their function is primarily to signal the type of subordinate clause.
+</question>
+    <question>
+Complement clauses: A main verb may take as its direct object a clause. These are often referred to as "Noun clauses" or "Noun complements". The verb form of the subordinate clause is usually determined by the semantics of the main verb, so in this case, our meaning labels will just refer to the context. If a verb form occurs in the complements to words of thinking and believing, the meaning label will be complement to words of thinking and believing.
+</question>
+    <question>
+complement to words of thinking
+</question>
+    <question>
+complement to words of believing
+</question>
+    <question>
+complement to words of saying
+</question>
+    <question>
+complement to words of ordering (in English we use an infinitive with these words)
+</question>
+    <question>
+complement to words of wanting (again in English these are done with infinitives)
+</question>
+    <question>
+complement to words of emotion (surprise, regret, happiness, sadness, etc.; the complement proposition is presupposed to be true)
+</question>
+    <question>
+complement to words of obligation
+</question>
+    <question>
+complement to words of admonition
+</question>
+    <question>
+subsequent: following a reference time in the past.
+</question>
+    <question>
+subordinator: marker indicates that the verb is in a subordinate clause.
+</question>
   </semantic-domain>
   <semantic-domain guid="IFA8E72A0-1BFE-4B49-A287-293B44213960" id="9.4.8 Adverbial clauses">
-    <question>There are a variety of adverbial clauses (other than conditional clauses) that sometimes require a special verb form. The meaning labels for these uses are coded according to the type of clause (purpose, concessive, etc.), whether any particular temporal deixis is part of the meaning, and under "co-occurrence restrictions," whether a particular conjunction is present. The types of clauses we might run into are:</question>
+    <question>
+There are a variety of adverbial clauses (other than conditional clauses) that sometimes require a special verb form. The meaning labels for these uses are coded according to the type of clause (purpose, concessive, etc.), whether any particular temporal deixis is part of the meaning, and under "co-occurrence restrictions," whether a particular conjunction is present. The types of clauses we might run into are:
+</question>
     <question>
       purpose: the clause states the purpose for which the main clause action is taking place. Often called a "final" clause: 'He was saving his money so that his son could go to college'. (so that)
     </question>
@@ -26665,13 +26863,17 @@
     <question>
       What words mark the beneficiary of a Patient? (for)
     </question>
-    <question>In English the Beneficiary can be the object, but many languages do not allow this.</question>
+    <question>
+In English the Beneficiary can be the object, but many languages do not allow this.
+</question>
   </semantic-domain>
   <semantic-domain guid="I99C51A2C-AD49-48A6-BB0B-F059DA745EC4" id="9.5.3.2 Recipient (of a patient)">
     <question>
       What words mark the recipient of a patient? (to)
     </question>
-    <question>In English the Recipient can be the object, but many languages do not allow this.</question>
+    <question>
+In English the Recipient can be the object, but many languages do not allow this.
+</question>
   </semantic-domain>
   <semantic-domain guid="I55B93F1C-6CE0-4D13-AE1E-F06360E4689C" id="9.5.3.3 With (a patient)">
     <question>
@@ -26847,7 +27049,9 @@
     <question>
       What words indicate that something is contrary to reason? (contrary to reason, absurd)
     </question>
-    <question>What words indicate that something is self-caused?</question>
+    <question>
+What words indicate that something is self-caused?
+</question>
   </semantic-domain>
   <semantic-domain guid="I48D3DE9F-3619-4785-B50B-6921BA7EECD6" id="9.6.2.6 Result">
     <question>
@@ -26873,18 +27077,42 @@
     </question>
   </semantic-domain>
   <semantic-domain guid="IF858278A-2727-4403-9CF0-565CDECECB1E" id="9.6.2.8 Condition">
-    <question>Conditional sentences: Conditional sentences consist of two clauses, the 'if'-clause or protasis (which is a subordinate clause) and the 'then'-clause or apodosis (which is the main clause). Both of these clauses may take special verb forms. (Interestingly enough, they sometime both take the same special verb forms.)</question>
-    <question>There are at least three types of conditional sentences. (Labels, explanations, and examples from Li and Thompson 1981): [Li, Charles N., and Sandra A. Thompson. 1981. Mandarin Chinese: A functional reference grammar. Berkeley and Los Angeles: University of California Press.]</question>
-    <question>reality condition: a conditional relation between two propositions referring to the so-called real world: 'If you see my sister, you will know that she is pregnant'.</question>
-    <question>hypothetical: the situation is unreal or imagined, but one that could be true: 'If we moved, we could have a garden'.</question>
-    <question>counterfactual: the proposition describes an unreal or imagined situation that could have been true but was not: 'If you had taken algebra, you would know this formula' (but you did not).</question>
-    <question>The verb forms that occur in these sentences will be coded according to the type of sentence, and according to which clause of the sentence they occur in.</question>
-    <question>Example: the English 'had' + past participle would be coded as:</question>
-    <question>meaning label: protasis</question>
-    <question>meaning label: counterfactual</question>
-    <question>Since the conjunction 'if' obligatorily occurs in the protasis, there will also be the following:</question>
-    <question>Co-occurrence restriction: 'if'</question>
-    <question>This indicates that a morpheme meaning 'if' obligatorily occurs in the protasis. If no such morpheme is necessary, then there will be no co-occurrence restriction.</question>
+    <question>
+Conditional sentences: Conditional sentences consist of two clauses, the 'if'-clause or protasis (which is a subordinate clause) and the 'then'-clause or apodosis (which is the main clause). Both of these clauses may take special verb forms. (Interestingly enough, they sometime both take the same special verb forms.)
+</question>
+    <question>
+There are at least three types of conditional sentences. (Labels, explanations, and examples from Li and Thompson 1981): [Li, Charles N., and Sandra A. Thompson. 1981. Mandarin Chinese: A functional reference grammar. Berkeley and Los Angeles: University of California Press.]
+</question>
+    <question>
+reality condition: a conditional relation between two propositions referring to the so-called real world: 'If you see my sister, you will know that she is pregnant'.
+</question>
+    <question>
+hypothetical: the situation is unreal or imagined, but one that could be true: 'If we moved, we could have a garden'.
+</question>
+    <question>
+counterfactual: the proposition describes an unreal or imagined situation that could have been true but was not: 'If you had taken algebra, you would know this formula' (but you did not).
+</question>
+    <question>
+The verb forms that occur in these sentences will be coded according to the type of sentence, and according to which clause of the sentence they occur in.
+</question>
+    <question>
+Example: the English 'had' + past participle would be coded as:
+</question>
+    <question>
+meaning label: protasis
+</question>
+    <question>
+meaning label: counterfactual
+</question>
+    <question>
+Since the conjunction 'if' obligatorily occurs in the protasis, there will also be the following:
+</question>
+    <question>
+Co-occurrence restriction: 'if'
+</question>
+    <question>
+This indicates that a morpheme meaning 'if' obligatorily occurs in the protasis. If no such morpheme is necessary, then there will be no co-occurrence restriction.
+</question>
     <question>
       What words indicate the condition of a conditional sentence? (condition, if, if indeed, if at all, whether...or, or else, otherwise, unless)
     </question>

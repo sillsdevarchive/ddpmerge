@@ -54,6 +54,10 @@
     <Compile Include="Ddp4to1MapReader.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SemanticDomainQuestions.cs" />
+    <Compile Include="SemanticDomainQuestionsCollection.cs" />
+    <Compile Include="SemanticDomainQuestionsReader.cs" />
+    <Compile Include="SemanticDomainQuestionsWriter.cs" />
     <Compile Include="SemanticDomainReader.cs" />
     <Compile Include="SemanticDomainCollection.cs" />
     <Compile Include="SemanticDomainInfo.cs" />
